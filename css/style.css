@@ -39,6 +39,7 @@ h2 {
 }
 
 .subheading {
+    color: #007391;
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Saira Extra Condensed', serif;
@@ -108,6 +109,10 @@ h2 {
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
         display: block;
     }
+}
+
+section h2 {
+    color: #007391 !important;
 }
 
 section.resume-section {
