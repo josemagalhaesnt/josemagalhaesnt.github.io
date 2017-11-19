@@ -38,6 +38,16 @@ h2 {
     font-size: 3.5rem;
 }
 
+.btn-primary {
+    background-color: #0190B6;
+    border-color: #0190B6;
+}
+
+.btn-primary:hover {
+    background-color: #007391;
+    border-color: #007391;
+}
+
 .subheading {
     color: #007391;
     text-transform: uppercase;
@@ -113,6 +123,10 @@ h2 {
 
 section h2 {
     color: #007391 !important;
+}
+
+section .portfolio-title {
+    color: #0190B6 !important;
 }
 
 section.resume-section {
