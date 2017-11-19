@@ -138,15 +138,9 @@ section .portfolio-description {
     margin-top: 150px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     section .portfolio-description {
-        margin-top: 50px;
-    }
-}
-
-@media (min-width: 992px) {
-    section .portfolio-description {
-        margin-top: 70px;
+        margin-top: 0px !important;
     }
 }
 
