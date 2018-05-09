@@ -127,22 +127,47 @@ section h2 {
 }
 
 section .portfolio-title {
-    color: #0190B6 !important;
+    color: #0190B6;
 }
 
 section .portfolio-image {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
 section .portfolio-description {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 @media (max-width: 768px) {
     section .portfolio-description {
         margin-top: 0px !important;
     }
+}
+
+#miraira_digital.portfolio-title {
+    color: #ca2604;
+}
+
+#miraira_digital.btn.btn-primary {
+    background-color: #ca2604;
+    border-color: #ca2604;
+}
+
+#miraira_digital.btn.btn-primary:hover {
+    background-color: orangered;
+    border-color: orangered;
+}
+
+#miraira_digital.btn.btn-primary:visited {
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+}
+#miraira_digital.btn.btn-primary:focus {
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
 }
 
 section.resume-section {
