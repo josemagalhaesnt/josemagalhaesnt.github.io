@@ -63,12 +63,14 @@ nav .nav-link {
 }
 
 .navbar-brand {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
 }
 
-.habilidades {
-    color: var(--black);
-    font-size: 20px;
+.skills {
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    line-height: 2.5rem;
 }
 
 header {
