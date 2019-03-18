@@ -118,54 +118,8 @@ aside {
     min-height: 250px;
 }
 
-@media(max-width: 768px) {
-    #info {
-        margin-top: 0px;
-        font-size: 15px;
-    }
-
-    .btn {
-        width: 100%;
-        margin: 5px auto;
-        font-size: 16px !important;
-    }
-
-    .list-icons {
-        font-size: 2rem !important;
-    }
-}
-
-.list-icons {
-    font-size: 3rem;
-    color: var(--marine-blue);
-}
-
-.list-icons .list-inline-item i:hover {
-    color: #6E8898;
-}
-
-section .portfolio-title {
-    color: var(--black);
-}
-
-section .portfolio-image {
-    width: 80%;
-    height: auto;
-}
-
-section .portfolio-description {
-    margin-top: 50px;
-}
-
-@media (max-width: 768px) {
-    .portfolio-title {
-        font-size: 20px;
-    }
-
-    section .portfolio-description {
-        margin-top: 10px !important;
-        font-size: 14px;
-    }   
+#portfolio {
+    padding: 70px 20px 50px;
 }
 
 #miraira_digital.portfolio-title {
