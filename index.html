@@ -22,7 +22,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <a class="navbar-brand col" href="index.html">José Magalhães - Desenvolvimento Web</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span> MENU
         </button>
               
         <div class="collapse navbar-collapse col-md-8 col-12" id="navbarSupportedContent">
@@ -39,7 +39,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="mailto:zneto@live.com">
-                        <i class="fas fa-comment"></i> Entre Em Contato  
+                        <i class="fas fa-envelope"></i> Entre Em Contato  
                     </a>
                 </li>
             </ul>
@@ -47,86 +47,77 @@
     </nav>
 
     <!-- Developer Profile Info -->
-    <header>
-    <div class="container-fluid">
-        <div class="row">
-            <aside id="profile-bar" class="col">
-                <div class="card text-dark bg-light mb-3 text-center" style="max-width: 30rem;">
-                    <img class="card-img-top" src="img/profile.jpg"/>
-                    <div class="card-body">
-                        <h4 class="nome card-title"> José Magalhães</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Desenvolvedor Web</h6>
-                        <div class="row"></div>
-                        <div class="btn-group" style="margin-top:10px;">
-                            <a class="btn btn-outline-primary" href="http://lattes.cnpq.br/4413604877482150" role="button" target="_blank">
-                                <i class="fas fa-graduation-cap"></i>
-                            </a>            
-                            <a class="btn btn-outline-primary" href="https://github.com/zneto" role="button" target="_blank">
-                                <i class="fab fa-github-alt"></i>
-                            </a>
-                            <a class="btn btn-outline-primary" href="https://www.linkedin.com/in/josemagalhaesnt" role="button" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>            
-                    </div>
-                </div>
-            </aside>
-            <section class="profile-info col-sm-8 col-12">
-                    <div class="container">
-                        <div id="info">
-                            <div class="text-justify">
-                                <h1 class="titulo">Sobre Mim</h1>
-                                <p>
-                                    Estudante de Engenharia de Computação no Instituto Federal de Ciência, Educação e Tecnologia - IFCE, 
-                                    24 anos, atuando atualmente como bolsista responsável pelo desenvolvimento e manuntenção do ambiente virtual 
-                                    Digital Mundo Miraira, utilizando de conhecimentos em WordPress, HTML, CSS, Bootstrap e PHP no projeto desde 2017,
-                                    quando desenvolvi a plataforma. Desde então, pude me descobrir como um grande entusiasta de tecnologia, 
-                                    um desenvolvedor dedicado de front-end, que está aberto a novos desafios, a aprender novas tecnologias e 
-                                    aperfeiçoar meus conhecimentos para me tornar cada vez mais um profissional mais capacitado.
-                                </p>  
-                                <br>
-                                <h1 class="titulo">Habilidades/Skills</h1> 
-                                <div class="row"></div>
-                                    <div class="my-auto">
-                                        <div class="subtitle mt-3">Web, Programação &amp; Design</div>
-                                            <div class="row"></div>
-                                            <div class="skills">
-                                                <button type="button" class="btn btn-sm btn-primary" disabled>
-                                                    <i class="fab fa-html5"></i> HTML 5
-                                                </button>
-                                                <button type="button" class="btn btn-sm btn-primary" disabled>
-                                                    <i class="fab fa-css3-alt"></i> CSS 3
-                                                </button>
-                                                <button type="button" class="btn btn-sm btn-warning" disabled>
-                                                    <i class="fab fa-dev"></i> Bootstrap
-                                                </button>
-                                                <button type="button" class="btn btn-sm btn-dark" disabled>
-                                                    <i class="fab fa-wordpress"></i> WordPress
-                                                </button>
-                                                <button type="button" class="btn btn-sm btn-secondary" disabled>
-                                                    <i class="fab fa-php"></i> PHP
-                                                </button>
-                                                <button type="button" class="btn btn-sm btn-secondary" disabled>
-                                                    <i class="fab fa-java"></i> Java 
-                                                </button>
-                                                <button type="button" class="btn btn-sm btn-danger" disabled>
-                                                        <i class="fab fa-adobe"></i> Adobe Photoshop
-                                                </button>
-                                            </div>
-                                            <div class="subtitle mt-3">Outras Habilidades</div>
-                                            <div class="row"></div>
-                                            <div class="skills">
-                                                <button type="button" class="btn btn-sm btn-success" disabled>
-                                                    <i class="fas fa-globe-americas"></i> Inglês Britânico
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                      
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <aside class="developer-profile col mx-auto">
+                    <div class="card text-dark bg-light mb-3 text-center" style="max-width: 30rem;">
+                        <img class="developer-profile__photo card-img-top" src="img/profile.jpg"/>
+                        <div class="card-body">
+                            <h4 class="developer-profile__name card-title"> José Magalhães</h4>
+                            <h6 class="developer-profile__job card-subtitle mb-2 text-muted">Desenvolvedor Web</h6>
+                                    
+                            <div class="developer-profile__links btn-group">
+                                <a class="btn btn-outline-dark" href="http://lattes.cnpq.br/4413604877482150" role="button" target="_blank">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </a>            
+                                <a class="btn btn-outline-dark" href="https://github.com/zneto" role="button" target="_blank">
+                                    <i class="fab fa-github-alt"></i>
+                                </a>
+                                <a class="btn btn-outline-dark" href="https://www.linkedin.com/in/josemagalhaesnt" role="button" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
                             </div>
                         </div>
-                </section>
+                    </div>
+                </aside>
+
+                <section class="developer-info col-sm-8 col-12">
+                    <div class="developer-info__bio">
+                        <h2 class="title">Sobre Mim</h2>
+                        <p class="developer-info__bio--text justify-text">
+                            Estudante de Engenharia de Computação no Instituto Federal de Ciência, Educação e Tecnologia - IFCE, 
+                            24 anos, atuando atualmente como bolsista responsável pelo desenvolvimento e manuntenção do ambiente virtual 
+                            Digital Mundo Miraira, utilizando de conhecimentos em WordPress, HTML, CSS, Bootstrap e PHP no projeto desde 2017,
+                            quando desenvolvi a plataforma. Desde então, pude me descobrir como um grande entusiasta de tecnologia, 
+                            um desenvolvedor dedicado de front-end, que está aberto a novos desafios, a aprender novas tecnologias e 
+                            aperfeiçoar meus conhecimentos para me tornar cada vez mais um profissional mais capacitado.
+                        </p> 
+                    </div>
+
+                    <div class="developer-info__skills">
+                        <h2 class="title">Habilidades/Skills</h2>
+                        <div class="subtitle mt-3">Web, Programação &amp; Design</div>
+                        <button type="button" class="btn btn-sm btn-primary" disabled>
+                            <i class="fab fa-html5"></i> HTML 5
+                        </button>
+                        <button type="button" class="btn btn-sm btn-primary" disabled>
+                            <i class="fab fa-css3-alt"></i> CSS 3
+                        </button>
+                        <button type="button" class="btn btn-sm btn-warning" disabled>
+                            <i class="fab fa-dev"></i> Bootstrap
+                        </button>
+                        <button type="button" class="btn btn-sm btn-dark" disabled>
+                            <i class="fab fa-wordpress"></i> WordPress
+                        </button>
+                        <button type="button" class="btn btn-sm btn-secondary" disabled>
+                            <i class="fab fa-php"></i> PHP
+                        </button>
+                        <button type="button" class="btn btn-sm btn-secondary" disabled>
+                            <i class="fab fa-java"></i> Java 
+                        </button>
+                        <button type="button" class="btn btn-sm btn-danger" disabled>
+                            <i class="fab fa-adobe"></i> Adobe Photoshop
+                        </button>
+                        <div class="subtitle mt-3">Outras Habilidades</div>
+                        <button type="button" class="btn btn-sm btn-success" disabled>
+                            <i class="fas fa-globe-americas"></i> Inglês Britânico
+                        </button>
+                    </div>
+                </section>   
+
             </div>
+        </div>    
     </header>
 
     <!-- Portfolio -->
@@ -134,26 +125,34 @@
     <section id="portfolio">
         <div class="container-fluid align-middle">
             <div class="row"></div>
-            <h1 class="titulo text-center">Portfolio</h1>
-            <div class="card" style="max-width: 50rem;">
-                <img src="img/portfolio/digitalm/home.jpg" class="card-img-top" alt="Digital Mundo Miraira" data-toggle="lightbox">
-                <div class="card-body text-center">
-                    <h3 class="titulo card-title">Digital Mundo Miraira</h3>
-                    <p class="card-text">O Digitalmundomiraira traz um Miraira artístico que compartilha o que aprende por meio de espetáculos de Dança, Música e Teatro, evidenciando sua história desde os anos 80 do século XX e também disponibiliza as atividades acadêmicas do Grupo de Estudos em Cultura Folclórica Aplicada com registro no CNPQ desde 2003. <br> O ambiente possui um Banco de Dados pensado como uma ferramenta virtual que facilite e concorra para o reconhecimento do Patrimônio Imaterial do Ceará buscando contribuir com ações de Educação Patrimonial na escola cearense principalmente.</p>
-                    <a href="http://www.digitalmundomiraira.com.br" id="miraira_digital" class="btn btn-primary">Confira aqui</a>
+            <h1 class="title">Portfolio</h1>
+            <div class="projects">
+                <div id="digitalmiraira" class="card">
+                    <img src="img/portfolio/digitalm/home.jpg" class="project_image card-img-top" alt="Digital Mundo Miraira" data-toggle="lightbox">
+                    <div class="card-body text-center">
+                        <h3 class="project__title card-title">Digital Mundo Miraira</h3>
+                        <p class="project__description card-text">O Digitalmundomiraira traz um Miraira artístico 
+                            que compartilha o que aprende por meio de espetáculos de Dança, Música e Teatro, evidenciando sua 
+                            história desde os anos 80 do século XX e também disponibiliza as atividades acadêmicas do Grupo de 
+                            Estudos em Cultura Folclórica Aplicada com registro no CNPQ desde 2003. O ambiente possui um Banco de 
+                            Dados pensado como uma ferramenta virtual que facilite e concorra para o reconhecimento do Patrimônio 
+                            Imaterial do Ceará buscando contribuir com ações de Educação Patrimonial na escola cearense 
+                            principalmente.</p>
+                        <a href="http://www.digitalmundomiraira.com.br" class="btn btn-lg btn-danger">Confira aqui</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <!-- Footer -->
-    
+        
     <footer class="footer">
-        <span>Copyright © 2019 José Magalhães</span>    
+        <span class="footer__copyright">Copyright © 2019 José Magalhães</span>    
     </footer>
-    
+        
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-     
+         
 </body>
