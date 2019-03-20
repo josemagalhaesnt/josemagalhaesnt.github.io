@@ -1,0 +1,29 @@
+.btn {
+    font-size: 1.5rem !important;
+}
+
+#portfolio {
+    .projects {
+        #digitalmiraira {
+            .btn.btn-danger:link {
+                background-color: $miraira-orange;
+                border-color: $miraira-orange;
+            }
+            .btn.btn-danger:hover {
+                background-color: lighten($miraira-orange, 15%);
+                border-color: lighten($miraira-orange, 15%);
+            }
+            
+            .btn.btn-danger:visited {
+                background-color: lighten($miraira-orange, 15%);
+                border-color: lighten($miraira-orange, 15%);
+                color: $white;
+            }
+            .btn.btn-danger:focus {
+                background-color: lighten($miraira-orange, 15%);
+                border-color: lighten($miraira-orange, 15%);
+                color: $white;
+            }
+        } 
+    }
+}    

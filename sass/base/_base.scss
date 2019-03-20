@@ -1,0 +1,21 @@
+*,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+  
+body {
+    font-size: 1.6rem;
+    color: $black;
+    overflow-x: hidden;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+    }
+}
