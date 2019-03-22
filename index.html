@@ -5,7 +5,6 @@
     <title>José Magalhães - Desenvolvimento Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
@@ -51,7 +50,7 @@
         <div class="container">
             <div class="row">
                 <aside class="developer-profile col mx-auto">
-                    <div class="card text-dark bg-light mb-3 text-center" style="max-width: 30rem;">
+                    <div class="card text-dark bg-light mb-3 text-center border-0" style="max-width: 30rem;">
                         <img class="developer-profile__photo card-img-top" src="img/profile.jpg"/>
                         <div class="card-body">
                             <h4 class="developer-profile__name card-title"> José Magalhães</h4>
@@ -77,11 +76,12 @@
                         <h2 class="title">Sobre Mim</h2>
                         <p class="developer-info__bio--text justify-text">
                             Estudante de Engenharia de Computação no Instituto Federal de Ciência, Educação e Tecnologia - IFCE, 
-                            24 anos, atuando atualmente como bolsista responsável pelo desenvolvimento e manuntenção do ambiente virtual 
+                            24 anos, atuando atualmente como bolsista responsável pelo desenvolvimento e manutenção do ambiente virtual 
                             Digital Mundo Miraira, utilizando de conhecimentos em WordPress, HTML, CSS, Bootstrap e PHP no projeto desde 2017,
-                            quando desenvolvi a plataforma. Desde então, pude me descobrir como um grande entusiasta de tecnologia, 
-                            um desenvolvedor dedicado de front-end, que está aberto a novos desafios, a aprender novas tecnologias e 
-                            aperfeiçoar meus conhecimentos para me tornar cada vez mais um profissional mais capacitado.
+                            quando iniciei o desenvolvimento do projeto, que encontra-se online atualmente e em constantes aprimoramentos. 
+                            Desde então, pude me descobrir como um grande entusiasta de tecnologia, um desenvolvedor dedicado de front-end, 
+                            que está aberto a novos desafios, a aprender novas tecnologias e aperfeiçoar meus conhecimentos para me tornar 
+                            cada vez mais um profissional mais capacitado.
                         </p> 
                     </div>
 
@@ -100,10 +100,10 @@
                         <button type="button" class="btn btn-sm btn-dark" disabled>
                             <i class="fab fa-wordpress"></i> WordPress
                         </button>
-                        <button type="button" class="btn btn-sm btn-secondary" disabled>
+                        <button type="button" class="btn btn-sm btn-info" disabled>
                             <i class="fab fa-php"></i> PHP
                         </button>
-                        <button type="button" class="btn btn-sm btn-secondary" disabled>
+                        <button type="button" class="btn btn-sm btn-info" disabled>
                             <i class="fab fa-java"></i> Java 
                         </button>
                         <button type="button" class="btn btn-sm btn-danger" disabled>
@@ -126,11 +126,33 @@
         <div class="container-fluid align-middle">
             <div class="row"></div>
             <h1 class="title">Portfolio</h1>
-            <div class="projects">
+            <div class="projects card-group">
+
+                <!-- Digital Mundo Miraira -->
                 <div id="digitalmiraira" class="card">
+
+                    <div class="project__type card-header bg-light text-center">
+                        <small class="text-muted">Website</small>
+                    </div>
+
                     <img src="img/portfolio/digitalm/home.jpg" class="project_image card-img-top" alt="Digital Mundo Miraira" data-toggle="lightbox">
                     <div class="card-body text-center">
                         <h3 class="project__title card-title">Digital Mundo Miraira</h3>
+                        <div class="project__skills card-text mb-3">
+                            <span class="badge badge-pill badge-dark">
+                                HTML 5
+                            </span>
+                            <span class="badge badge-pill badge-dark">
+                                CSS 3
+                            </span>
+                            <span class="badge badge-pill badge-dark">
+                                WordPress
+                            </span>
+                            <span class="badge badge-pill badge-dark">
+                                PHP
+                            </span>   
+                        </div>
+
                         <p class="project__description card-text">O Digitalmundomiraira traz um Miraira artístico 
                             que compartilha o que aprende por meio de espetáculos de Dança, Música e Teatro, evidenciando sua 
                             história desde os anos 80 do século XX e também disponibiliza as atividades acadêmicas do Grupo de 
@@ -139,12 +161,14 @@
                             Imaterial do Ceará buscando contribuir com ações de Educação Patrimonial na escola cearense 
                             principalmente.</p>
                         <a href="http://www.digitalmundomiraira.com.br" class="btn btn-lg btn-danger">Confira aqui</a>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-    
+
     <!-- Footer -->
         
     <footer class="footer">
