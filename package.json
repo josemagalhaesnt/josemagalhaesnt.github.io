@@ -21,6 +21,7 @@
   },
   "homepage": "https://zneto.github.io",
   "devDependencies": {
+    "bootstrap": "^4.3.1",
     "node-sass": "^4.11.0"
   }
 }

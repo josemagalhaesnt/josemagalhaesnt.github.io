@@ -1,6 +1,6 @@
 h1 {
-    font-size: 3.2rem !important;
-    line-height: 5.5rem;
+    font-size: 3.6rem !important;
+    //line-height: 5.5rem;
 }
 
 h2 {
@@ -12,16 +12,60 @@ h3 {
 }
 
 h4 {
-    font-size: 2rem !important;
+    font-size: 2.1rem !important;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.8rem !important;
+    }
+    
+    h2 {
+        font-size: 2.1rem !important;
+    }
+    
+    h3 {
+        font-size: 1.8rem !important;
+    }
+    
+    h4 {
+        font-size: 1.6rem !important;
+    } 
+}
+
+nav {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.618;
+
+    & .nav-item {
+        & .nav-link {
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            font-weight: 400;
+    
+            &:hover {
+                color: darken($blue-sky, 15%) !important;
+            }
+        }
+    }
 }
 
 
 .title {
-    color: $sandcastle;
+    color: $marine-blue;
     text-transform: uppercase;
-    font-family: 'Saira Extra Condensed', sans-serif;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    //font-weight: 600;
     margin: 2rem 0 1.5rem;
+}
+
+.text--blue-sky {
+    color: $blue-sky;
+}
+
+.text--marine {
+    color: $marine-blue;
 }
 
 @media (max-width: 768px) {
@@ -37,7 +81,8 @@ h4 {
 
         & .project__description {
             color: $black;
-            font-size: 1.4rem;
+            font-family: 'Lato', sans-serif;
+            font-size: 1.5rem;
             text-align: center;
             display: inline-block;
         }

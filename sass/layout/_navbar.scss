@@ -1,20 +1,17 @@
 nav {
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 1.618;
-    background-color: $marine-blue;
-    margin-bottom: 1rem;
+
+    background-color: $white;
+    margin-bottom: 2rem;
+    padding: 1rem;
 
     & .nav-link {
-        font-family: 'Roboto', sans-serif;
-        text-transform: uppercase;
-        font-weight: 400;
         padding: 1rem; 
         margin: .5rem; 
     }
     
     & .navbar-brand {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.7rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8rem;
+        padding: 1rem;
     }
 }

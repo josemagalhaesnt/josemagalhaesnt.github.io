@@ -5,9 +5,7 @@
     <title>José Magalhães - Desenvolvimento Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Major+Mono+Display|Montserrat:400,600|Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
      <!-- Tweaks for older IEs--><!--[if lt IE 9]>
@@ -18,27 +16,27 @@
 
 <body>
     <!-- Responsive Menu -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <a class="navbar-brand col" href="index.html">José Magalhães</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span> MENU
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">José Magalhães <span class="text--blue-sky">&lt/&gt</span> Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsiveNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
               
-        <div class="collapse navbar-collapse col-md-8 col-12" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse col-md-8 col-12" id="responsiveNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html"> 
-                        <i class="fa fa-home"></i> Início
+                        Início
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#portfolio">
-                        <i class="fas fa-code"></i> Portfolio
+                        Portfolio
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="mailto:zneto@live.com">
-                        <i class="fas fa-envelope"></i> Entre Em Contato  
+                        Entre Em Contato  
                     </a>
                 </li>
             </ul>
@@ -47,10 +45,10 @@
 
     <!-- Developer Profile Info -->
     <header class="header">
-        <div class="container">
+        <div class="container-fluid align-content-center">
             <div class="row">
                 <aside class="developer-profile col mx-auto">
-                    <div class="card text-dark bg-light mb-3 text-center border-0" style="max-width: 30rem;">
+                    <div class="card text-dark bg-light mb-3 text-center border-0">
                         <img class="developer-profile__photo card-img-top" src="img/profile.jpg"/>
                         <div class="card-body">
                             <h4 class="developer-profile__name card-title"> José Magalhães</h4>
@@ -71,7 +69,7 @@
                     </div>
                 </aside>
 
-                <section class="developer-info col-sm-8 col-12">
+                <section class="developer-info col-sm-8 col-12 mx-auto">
                     <div class="developer-info__bio">
                         <h2 class="title">Sobre Mim</h2>
                         <p class="developer-info__bio--text justify-text">
@@ -137,7 +135,7 @@
 
                     <img src="img/portfolio/digitalm/home.jpg" class="project_image card-img-top" alt="Digital Mundo Miraira" data-toggle="lightbox">
                     <div class="card-body text-center">
-                        <h3 class="project__title card-title">Digital Mundo Miraira</h3>
+                        <h4 class="project__title card-title">Digital Mundo Miraira</h4>
                         <div class="project__skills card-text mb-3">
                             <span class="badge badge-pill badge-dark">
                                 HTML 5
