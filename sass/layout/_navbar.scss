@@ -3,7 +3,8 @@ nav {
     background-color: $white;
     margin-bottom: 2rem;
     padding: 1rem;
-
+    flex-direction: column;
+    
     & .nav-link {
         padding: 1rem; 
         margin: .5rem; 

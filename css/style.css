@@ -101,7 +101,8 @@ nav {
 nav {
   background-color: #fff;
   margin-bottom: 2rem;
-  padding: 1rem; }
+  padding: 1rem;
+  flex-direction: column; }
   nav .nav-link {
     padding: 1rem;
     margin: .5rem; }
