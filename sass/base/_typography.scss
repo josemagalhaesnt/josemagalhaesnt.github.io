@@ -21,15 +21,15 @@ h4 {
     }
     
     h2 {
-        font-size: 2.1rem !important;
+        font-size: 2.6rem !important;
     }
     
     h3 {
-        font-size: 1.8rem !important;
+        font-size: 2.4rem !important;
     }
     
     h4 {
-        font-size: 1.6rem !important;
+        font-size: 2.1rem !important;
     } 
 }
 
@@ -45,7 +45,7 @@ nav {
             font-weight: 400;
     
             &:hover {
-                color: darken($blue-sky, 15%) !important;
+                color: $vivid-blue !important;
             }
         }
     }
@@ -53,11 +53,13 @@ nav {
 
 
 .title {
-    color: $marine-blue;
-    text-transform: uppercase;
+    color: darken($vivid-blue, 10%);
     font-family: 'Montserrat', sans-serif;
-    //font-weight: 600;
     margin: 2rem 0 1.5rem;
+
+    &-big {
+        text-transform: uppercase;
+    }
 }
 
 .text--blue-sky {
@@ -66,6 +68,10 @@ nav {
 
 .text--marine {
     color: $marine-blue;
+}
+
+.text--vivid-blue {
+    color: $vivid-blue;
 }
 
 @media (max-width: 768px) {

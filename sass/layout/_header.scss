@@ -1,6 +1,7 @@
 header {
     margin-top: 3rem;
-    background-color: $blue-sky;
+    //background-color: $blue-sky;
+    @include blue-gradient;
     padding: 3.5rem 2rem 10rem;
     margin-bottom: 5rem;
     min-height: 50rem;

@@ -31,11 +31,11 @@ h4 {
   h1 {
     font-size: 2.8rem !important; }
   h2 {
-    font-size: 2.1rem !important; }
+    font-size: 2.6rem !important; }
   h3 {
-    font-size: 1.8rem !important; }
+    font-size: 2.4rem !important; }
   h4 {
-    font-size: 1.6rem !important; } }
+    font-size: 2.1rem !important; } }
 
 nav {
   font-size: 1.5rem;
@@ -46,19 +46,23 @@ nav {
     text-transform: uppercase;
     font-weight: 400; }
     nav .nav-item .nav-link:hover {
-      color: #4ebccb !important; }
+      color: #07c1db !important; }
 
 .title {
-  color: #0A2342;
-  text-transform: uppercase;
+  color: #0595aa;
   font-family: 'Montserrat', sans-serif;
   margin: 2rem 0 1.5rem; }
+  .title-big {
+    text-transform: uppercase; }
 
 .text--blue-sky {
   color: #89D2DC; }
 
 .text--marine {
   color: #0A2342; }
+
+.text--vivid-blue {
+  color: #07c1db; }
 
 @media (max-width: 768px) {
   .title {
@@ -74,24 +78,6 @@ nav {
 .btn {
   font-size: 1.5rem !important; }
 
-#portfolio .projects #digitalmiraira .btn.btn-danger:link {
-  background-color: #ca2604;
-  border-color: #ca2604; }
-
-#portfolio .projects #digitalmiraira .btn.btn-danger:hover {
-  background-color: #fb4520;
-  border-color: #fb4520; }
-
-#portfolio .projects #digitalmiraira .btn.btn-danger:visited {
-  background-color: #fb4520;
-  border-color: #fb4520;
-  color: #fff; }
-
-#portfolio .projects #digitalmiraira .btn.btn-danger:focus {
-  background-color: #fb4520;
-  border-color: #fb4520;
-  color: #fff; }
-
 #portfolio {
   padding: 7rem 2rem 5rem;
   font-size: 1.6rem; }
@@ -103,17 +89,24 @@ nav {
   margin-bottom: 2rem;
   padding: 1rem;
   flex-direction: column; }
+  nav::after {
+    display: block;
+    content: "";
+    clear: both; }
   nav .nav-link {
     padding: 1rem;
     margin: .5rem; }
   nav .navbar-brand {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
-    padding: 1rem; }
+    padding: 1rem;
+    float: left; }
+  nav .navbar-toggler {
+    font-size: 1.6rem; }
 
 header {
   margin-top: 3rem;
-  background-color: #89D2DC;
+  background: linear-gradient(180deg, #89D2DC, #07c1db);
   padding: 3.5rem 2rem 10rem;
   margin-bottom: 5rem;
   min-height: 50rem;
