@@ -1,6 +1,12 @@
-$marine-blue: #0A2342;
-$vivid-blue: #07c1db;
-$blue-sky: #89D2DC;
-$sandcastle: #be7c4d;
-$black: #353238;
-$white: #fff;
+//Colors
+$color-primary: #d14186;
+$color-primary-light: lighten($color-primary, 15%);
+$color-primary-dark: darken($color-primary, 15%);
+$color-vivid-blue: #07c1db;
+$color-blue-sky: #89D2DC;
+$color-black: #111111;
+$color-white: #fff;
+
+
+//Fonts
+$default-font-size: 1.6rem; 
