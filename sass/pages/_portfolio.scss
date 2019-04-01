@@ -2,9 +2,17 @@
     padding: 7rem 2rem 5rem;
     font-size: 1.6rem;
 
-    .projects {
-        .card {
+    .project {
+
+        &__card {
             max-width: 50rem;
+            height: auto;
         }
-    }
+
+        &__image {
+            max-width: 100%;
+            object-fit: cover;
+            backface-visibility: hidden; 
+        }
+    }   
 }

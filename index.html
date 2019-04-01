@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Major+Mono+Display|Montserrat:400,600|Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -88,18 +88,18 @@
 
                     <div class="developer-info__skills">
                         <h2 class="title">Habilidades/Skills</h2>
-                        <div class="subtitle mt-3">Web, Programação &amp; Design</div>
+                        <div class="subtitle mt-3">Linguagens</div>
                         <button type="button" class="btn btn-sm btn-primary" disabled>
-                            <i class="fab fa-html5"></i> HTML 5
+                            <i class="fab fa-html5"></i> HTML
                         </button>
                         <button type="button" class="btn btn-sm btn-primary" disabled>
-                            <i class="fab fa-css3-alt"></i> CSS 3
+                            <i class="fab fa-css3-alt"></i> CSS
                         </button>
-                        <button type="button" class="btn btn-sm btn-warning" disabled>
-                            <i class="fab fa-dev"></i> Bootstrap
+                        <button type="button" class="btn btn-sm btn-primary" disabled>
+                            <i class="fab fa-sass"></i> SASS
                         </button>
-                        <button type="button" class="btn btn-sm btn-dark" disabled>
-                            <i class="fab fa-wordpress"></i> WordPress
+                        <button type="button" class="btn btn-sm btn-info" disabled>
+                            <i class="fab fa-js"></i> JavaScript
                         </button>
                         <button type="button" class="btn btn-sm btn-info" disabled>
                             <i class="fab fa-php"></i> PHP
@@ -107,12 +107,29 @@
                         <button type="button" class="btn btn-sm btn-info" disabled>
                             <i class="fab fa-java"></i> Java 
                         </button>
+                        <div class="subtitle mt-3">Frameworks</div>
+                        <button type="button" class="btn btn-sm btn-warning" disabled>
+                            <i class="fab fa-bootstrap"></i> Bootstrap
+                        </button>
+                        <div class="subtitle mt-3">Ferramentas de Desenvolvimento & Design</div>
+                        <button type="button" class="btn btn-sm btn-dark" disabled>
+                            <i class="fab fa-github"></i> GitHub
+                        </button>
+                        <button type="button" class="btn btn-sm btn-dark" disabled>
+                            <i class="fab fa-npm"></i> NPM 
+                        </button>
+                        <button type="button" class="btn btn-sm btn-dark" disabled>
+                            <i class="fab fa-wordpress"></i> WordPress
+                        </button>
                         <button type="button" class="btn btn-sm btn-danger" disabled>
                             <i class="fab fa-adobe"></i> Adobe Photoshop
                         </button>
-                        <div class="subtitle mt-3">Outras Habilidades</div>
+                        <div class="subtitle mt-3">Idiomas</div>
                         <button type="button" class="btn btn-sm btn-success" disabled>
                             <i class="fas fa-globe-americas"></i> Inglês Britânico
+                        </button>
+                        <button type="button" class="btn btn-sm btn-success" disabled>
+                            <i class="fas fa-globe-americas"></i> Português do Brasil
                         </button>
                     </div>
                 </section>   
@@ -128,7 +145,7 @@
         <div class="container-fluid">
             <div class="row justify-content-md-center"></div>
             <h1 class="title title-big">Portfolio</h1>
-            <div class="projects card-deck">
+            <div class="project card-deck">
 
                 <!-- Digital Mundo Miraira -->
                 <div id="digitalmiraira" class="card mx-3 shadow">
@@ -137,8 +154,8 @@
                         <small class="text-muted">Website</small>
                     </div>
 
-                    <img src="img/portfolio/digitalm/home.jpg" class="project__image card-img-top thumbnail" alt="Digital Mundo Miraira" data-toggle="lightbox">
-                    <div class="card-body text-center">
+                    <img src="img/portfolio/digitalm/home.png" class="project__image card-img-top" alt="Digital Mundo Miraira" data-toggle="lightbox">
+                    <div class="project__card card-body text-center">
                         <h4 class="project__title card-title">Digital Mundo Miraira</h4>
                         <div class="project__skills card-text mb-3">
                             <span class="badge badge-pill badge-dark">
@@ -166,6 +183,41 @@
                             Imaterial do Ceará buscando contribuir com ações de Educação Patrimonial na escola cearense 
                             principalmente.</p>
                         <a href="http://www.digitalmundomiraira.com.br" class="btn btn-lg btn-dark">Confira aqui</a>
+
+                    </div>
+                </div>
+
+                <!-- Miraira Player  -->
+                <div id="miraira_player" class="card mx-3 shadow">
+
+                    <div class="project__type card-header bg-light text-center">
+                        <small class="text-muted">Aplicação Web</small>
+                    </div>
+
+                    <img src="img/portfolio/miraira_player/music-player.png" class="project__image card-img-top" alt="Miraira Player" data-toggle="lightbox">
+                    <div class="project__card card-body text-center">
+                        <h4 class="project__title card-title">Miraira Player - Audio e Video</h4>
+                        <div class="project__skills card-text mb-3">
+                            <span class="badge badge-pill badge-dark">
+                                HTML 5
+                            </span>
+                            <span class="badge badge-pill badge-dark">
+                                CSS 3
+                            </span>
+                            <span class="badge badge-pill badge-dark">
+                                Bootstrap
+                            </span>
+                            <span class="badge badge-pill badge-dark">
+                                PHP
+                            </span>   
+                        </div>
+
+                        <p class="project__description card-text">Aplicação PHP desenvolvida pra suprir a necessidade de um
+                            player HTML5 para o Digital Mundo Miraira que creditasse as mídias de áudio e vídeo, além de reproduzi-las
+                            e funcionasse de acordo com as necessidades e restrições das mídias disponibilizadas na plataforma.
+
+                        </p>
+                        <a href="https://github.com/josemagalhaesnt/miraira_player" class="btn btn-lg btn-dark"><i class="fas fa-code"></i> Código-fonte</a>
 
                     </div>
                 </div>
