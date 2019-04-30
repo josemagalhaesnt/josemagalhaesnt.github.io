@@ -4,9 +4,7 @@
     <meta charset="utf-8" />
     <title>José Magalhães - Desenvolvimento Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Major+Mono+Display|Montserrat:400,600|Roboto:400,500" rel="stylesheet">
-    
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
@@ -18,25 +16,181 @@
 <body>
 
     <header class="header">
-        <div class="header__intro">
-            <h3 class="header__intro-hello">echo("Hello World!");</h3>
-            <h1 class="header__intro-name">José Magalhães</h1>
-            <span class="header__intro-position">Desenvolvedor Front-End</span>
-        </div>
+        <div class="intro">
+            <h3 class="intro__hello">echo("Hello World!");</h3>
+            <h1 class="intro__name">José Magalhães</h1>
+            <span class="intro__position">Desenvolvedor Front-End</span>
+            
+            <div class="social">
+                <span>
+                    <a href="https://github.com/josemagalhaesnt" placeholder="GitHub" class="social__link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </span>
+                <span>
+                    <a href="http://lattes.cnpq.br/4413604877482150" placeholder="Currículo Lattes" class="social__link">
+                        <i class="fas fa-address-card"></i>
+                    </a>
+                </span>
+                <span>
+                    <a href="https://www.linkedin.com/in/josemagalhaesnt" placeholder="Linkedin" class="social__link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </span> 
+            </div>
+
+            <div class="learn-more">
+                <button class="btn btn-animated btn--pink">
+                    <a href="#about" class="about__link">Saiba Mais</a>
+                </button>
+            </div>
+        </div>   
     </header>
 
     <main>
+        <section id="about" class="section-about">
+            <div class="title-wrap">
+                <i class="icon fas fa-user-edit"></i>
+                <h2 class="title">Sobre O Desenvolvedor</h2>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-2-of-4 about-dev">
+                        <img src="img/profile.jpg" alt="Profile Picture" class="about-dev__picture">
+                        <ul class="about-dev__info">
+                            <li><strong>Nome: </strong><span>José Magalhães</span></li>
+                            <li><strong>Idade: </strong><span>24 anos</span></li>
+                            <li><strong>Email: </strong><a href="mailto:zneto@live.com">zneto@live.com</a></li>
+                            <li><strong>Cargo: </strong><span>Desenvolvedor Web Front-End</span></li>
+                            <li><strong>Local: </strong><span>Fortaleza - CE, Brasil</span></li>
+                        </ul>
+                        <p class="about-dev__description">
+                            Estudante de Engenharia de Computação no IFCE - Instituto Federal de Ciência, Educação e Tecnologia, atuando desde 2017 como bolsista responsável pelo desenvolvimento e manutenção do ambiente virtual Digital Mundo Miraira. Tive a minha primeira experiência com Desenvolvimento Web em 2014, período em que pude me descobrir como um grande entusiasta da área, e desde então, tenho me dedicado para ser um desenvolvedor de front-end cada vez mais capacitado, desenvolvendo projetos de qualidade, aprendendo novas tecnologias e sempre aberto a novos desafios.
+                        </p>
+                    </div>
+                    <div class="col-2-of-4 skills">
+                        <h3 class="title">Skills</h3>
+                        <h4 class="skills__category">Linguagens</h4>
+                        <ul class="skills__list">
+                            <li class="skills__skill">
+                                <strong>HTML 5</strong>
+                                <progress class="progress-bar" value="90" max="100"></progress>
+                                <strong>90%</strong>
+                            </li>
+                            <li class="skills__skill">
+                                <strong>CSS 3</strong>
+                                <progress class="progress-bar" value="90" max="100"></progress>
+                                <strong>90%</strong>
+                            </li>
+                            <li class="skills__skill">
+                                    <strong>Java</strong>
+                                    <progress class="progress-bar" value="50" max="100"></progress>
+                                    <strong>50%</strong>
+                            </li>
+                            <li class="skills__skill">
+                                <strong>PHP</strong>
+                                <progress class="progress-bar" value="40" max="100"></progress>
+                                <strong>40%</strong>
+                            </li>
+                            <li class="skills__skill">
+                                <strong>JavaScript</strong>
+                                <progress class="progress-bar" value="20" max="100"></progress>
+                                <strong>20%</strong>
+                            </li> 
+                        </ul>
+                        <h4 class="skills__category">Frameworks</h4>
+                        <ul class="skills__list">
+                            <li class="skills__skill">
+                                <strong>Bootstrap</strong>
+                                <progress class="progress-bar" value="90" max="100"></progress>
+                                <strong>90%</strong>
+                            </li>
+                            <li class="skills__skill">
+                                <strong>SASS</strong>
+                                <progress class="progress-bar" value="80" max="100"></progress>
+                                <strong>80%</strong>
+                            </li>
+                        </ul>
+                        <h4 class="skills__category">Ferramentas</h4>
+                        <ul class="skills__list">
+                            <li class="skills__skill">
+                                <strong>WordPress</strong>
+                                <progress class="progress-bar" value="90" max="100"></progress>
+                                <strong>90%</strong>
+                            </li>
+                            <li class="skills__skill">
+                                <strong>GitHub</strong>
+                                <progress class="progress-bar" value="80" max="100"></progress>
+                                <strong>80%</strong>
+                            </li>
+                            <li class="skills__skill">
+                                <strong>Adobe Photoshop</strong>
+                                <progress class="progress-bar" value="60" max="100"></progress>
+                                <strong>60%</strong>
+                            </li>
+                        </ul>  
+                    </div> 
+                </div>
 
+            </div>  
+        </section>
     </main>
 
     <!-- Footer -->
         
     <footer class="footer">
-        <span class="footer__copyright">Copyright © 2019 José Magalhães</span>    
+        <span class="footer__copyright">Copyright © 2019 <a href="https://www.github.io/josemagalhaesnt">José Magalhães</a></span>    
     </footer>
-        
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-         
+
+       <!--<section class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Col 2 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    Col 2 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    Col 3 of 4
+                </div>        
+            </div>
+        </section>
+        -->      
 </body>
+</html>

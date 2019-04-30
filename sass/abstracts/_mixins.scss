@@ -7,5 +7,44 @@
 }
 
 @mixin blue-gradient(){
-    background: linear-gradient(180deg, $color-blue-sky, $color-vivid-blue);
+    background-image: linear-gradient(to right, $color-secondary-light 0%, $color-secondary 50%);
+}
+
+@mixin pink-gradient(){
+  background-image: linear-gradient(to right, $color-primary-light 0%, $color-primary 50%);
+}
+
+@mixin align-center(){
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin list-margin {
+  li:not(:last-child) {
+    margin-bottom: .43rem;
+  }  
+}
+
+@mixin list-format {
+  list-style: none;
+}
+
+@mixin animate-btn {
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 3rem rgba($color-black, .3);
+
+    &::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+    }
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+  }
 }

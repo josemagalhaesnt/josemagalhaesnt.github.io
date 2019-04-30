@@ -11,44 +11,78 @@
     height: 100%;
     min-height: 100vh;
     position: relative;
-    margin: 0 auto;
+    margin: 0;
 
-    &__intro {
+    .intro {
         position: absolute;
-        display: inline-block;
+        display: block;
         letter-spacing: .2rem;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+        @include align-center;
 
-    &__intro-hello {
-        background-image: linear-gradient(to right, $color-vivid-blue 0%, $color-blue-sky 30%, $color-vivid-blue 90%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-    }
-
-    &__intro-name {
-        color: $color-primary-light;
-        font-family: "Lato", sans-serif;
-        font-weight: 900;
-        text-transform: uppercase;
-    }
-
-    &__intro-position {
-        color: $color-white;
-        font-family: "Lato", sans-serif;
-        font-weight: 900;
-        text-transform: uppercase;
-
-        &::before{
-            content: "|";
-            padding: 0 .8rem 0 1.4rem;
-            color: $color-primary;
+        &__hello {
+            @include blue-gradient;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            font-family: 'Lato', sans-serif;
+            font-weight: 600;
+        }
+    
+        &__name {
+            color: $color-primary-light;
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    
+        &__position {
+            color: $color-white;
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+    
+            &::before{
+                content: "|";
+                padding: 0 .8rem 0 1.4rem;
+                color: $color-primary;
+            }
         }
     }
 
+    .social {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        margin: 3rem 0;
+        padding: .5rem;
+        transition: all .2s;
+
+        &__link {
+            font-size: 4.8rem;
+            text-decoration: none;
+            
+            &:link,
+            &:visited {
+                color: $color-white;
+            }
+
+            &:hover, 
+            &:active {
+                color: $color-primary-light;
+            }
+            
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .learn-more {
+        .about__link {
+            text-decoration: none;
+            color: inherit; 
+        }
+    }
 }

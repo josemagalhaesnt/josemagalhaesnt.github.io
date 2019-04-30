@@ -1,12 +1,20 @@
-//Colors
+//Main Colors
 $color-primary: #d14186;
-$color-primary-light: lighten($color-primary, 15%);
-$color-primary-dark: darken($color-primary, 15%);
-$color-vivid-blue: #07c1db;
-$color-blue-sky: #89D2DC;
+$color-primary-light: lighten($color-primary, 10%);
+$color-primary-dark: darken($color-primary, 10%);
+$color-secondary: #07c1db;
+$color-secondary-light: lighten($color-secondary, 20%);
+$color-secondary-dark: darken($color-secondary, 10%);
+
+//Font Colors
 $color-black: #111111;
 $color-white: #fff;
 
-
 //Fonts
 $default-font-size: 1.6rem; 
+
+//Grid Layout
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-sm: 6rem;
+$gutter-horizontal: 6rem;
