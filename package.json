@@ -1,10 +1,30 @@
 {
+<<<<<<< Updated upstream
   "name": "zneto-portfolio-website",
   "version": "2.0.0",
   "description": "My Portfolio",
   "main": "index.js",
   "scripts": {
     "scss": "node-sass sass/main.scss css/style.css -w"
+=======
+  "name": "josemagalhaesnt",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "rfs": "^9.0.0"
+  },
+  "homepage": "https://josemagalhaesnt.github.io",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+>>>>>>> Stashed changes
   },
   "repository": {
     "type": "git",
@@ -22,6 +42,11 @@
   "homepage": "https://zneto.github.io",
   "devDependencies": {
     "bootstrap": "^4.3.1",
+<<<<<<< Updated upstream
     "node-sass": "^4.11.0"
+=======
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0"
+>>>>>>> Stashed changes
   }
 }
