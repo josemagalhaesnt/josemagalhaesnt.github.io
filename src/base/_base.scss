@@ -10,12 +10,5 @@ html {
   
 body {
     font-size: 1.6rem;
-    color: $black;
     overflow-x: hidden;
-}
-
-@media (min-width: 992px) {
-    body {
-        padding-top: 0;
-    }
 }

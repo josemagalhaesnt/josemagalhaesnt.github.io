@@ -1,14 +1,6 @@
 {
-<<<<<<< Updated upstream
-  "name": "zneto-portfolio-website",
-  "version": "2.0.0",
-  "description": "My Portfolio",
-  "main": "index.js",
-  "scripts": {
-    "scss": "node-sass sass/main.scss css/style.css -w"
-=======
-  "name": "josemagalhaesnt",
-  "version": "0.1.0",
+  "name": "josemagalhaesnt-portfolio",
+  "version": "2.0",
   "private": true,
   "dependencies": {
     "react": "^16.10.2",
@@ -24,29 +16,25 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
->>>>>>> Stashed changes
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zneto/zneto.github.io.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [
-    "portfolio",
-    "website"
-  ],
-  "author": "José Magalhães",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zneto/zneto.github.io/issues"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  "homepage": "https://zneto.github.io",
   "devDependencies": {
     "bootstrap": "^4.3.1",
-<<<<<<< Updated upstream
-    "node-sass": "^4.11.0"
-=======
     "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0"
->>>>>>> Stashed changes
   }
 }
