@@ -3,10 +3,10 @@
   "version": "2.0",
   "private": true,
   "dependencies": {
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
-    "rfs": "^9.0.0"
+    "rfs": "^9.0.2"
   },
   "homepage": "https://josemagalhaesnt.github.io",
   "scripts": {
@@ -35,6 +35,6 @@
   "devDependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.0"
   }
 }
