@@ -1,8 +1,8 @@
-import React from "react";
+import React, {Component} from "react";
 import "./About.scss";
-import Skill from "../../components/Skill/Skill";
+import { Skill } from "../../components";
 
-export default class About extends React.Component {
+export class About extends Component {
   render() {
     return (
       <main>
@@ -12,7 +12,7 @@ export default class About extends React.Component {
             <div className="row">
               <div className="col">
                 <img
-                  src="img/profile.jpg"
+                  src="assets/images/profile.jpg"
                   alt="Developer pic"
                   className="About-dev__picture"
                 />

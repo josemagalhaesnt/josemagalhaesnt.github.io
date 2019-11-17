@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Header.scss";
-import Button from "../../components/Button/Button";
+import { Button } from '../../components';
 
-export default class Header extends React.Component {
+export class Header extends Component {
   render() {
     return (
       <header className="Header">

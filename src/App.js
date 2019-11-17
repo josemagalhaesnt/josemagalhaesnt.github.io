@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.scss";
-import Header from "./layout/Header/Header";
-import About from "./pages/About/About";
-import Footer from "./layout/Footer/Footer";
+import { Header, Footer } from './layout';
+import { About } from "./pages";
+
+import { SideBarMenu } from "./layout/SideBarMenu/SideBarMenu";
 
 function App() {
   return (

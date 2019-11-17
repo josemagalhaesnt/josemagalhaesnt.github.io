@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Footer.scss";
 
-export default class Footer extends React.Component {
+export class Footer extends Component {
   constructor(props) {
     super(props);
     this.state = {
