@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import "./About.scss";
 import { Skill } from "../../components";
+import developerPic from '../../assets/images/profile.jpg';
 
 export class About extends Component {
   render() {
@@ -12,7 +13,7 @@ export class About extends Component {
             <div className="row">
               <div className="col">
                 <img
-                  src="assets/images/profile.jpg"
+                  src={developerPic}
                   alt="Developer pic"
                   className="About-dev__picture"
                 />

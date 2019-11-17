@@ -10,11 +10,14 @@
     "rfs": "^9.0.2",
     "styled-components": "^4.4.1"
   },
+  "homepage": "https://josemagalhaesnt.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' ",
     "fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}' "
   },
@@ -35,6 +38,7 @@
   },
   "devDependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0",
     "prettier-eslint": "^9.0.0",
     "prettier-eslint-cli": "^5.0.0",
