@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.scss";
 
-export const Button = props => {
+const Button = props => {
   return (
     <button className="Button Button-animated Button--pink">
       <a href={props.link} className="about__link">
@@ -10,3 +10,5 @@ export const Button = props => {
     </button>
   );
 };
+
+export {Button};

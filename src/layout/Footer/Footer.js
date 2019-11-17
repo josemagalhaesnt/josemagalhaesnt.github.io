@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Footer.scss";
 
-export class Footer extends Component {
+class Footer extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,3 +20,5 @@ export class Footer extends Component {
     );
   }
 }
+
+export {Footer};

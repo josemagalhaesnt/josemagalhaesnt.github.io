@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Header.scss";
 import { Button } from '../../components';
 
-export class Header extends Component {
+class Header extends Component {
   render() {
     return (
       <header className="Header">
@@ -49,3 +49,5 @@ export class Header extends Component {
     );
   }
 }
+
+export {Header};

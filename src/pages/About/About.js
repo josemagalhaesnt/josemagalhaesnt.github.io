@@ -3,7 +3,7 @@ import "./About.scss";
 import { Skill } from "../../components";
 import developerPic from '../../assets/images/profile.jpg';
 
-export class About extends Component {
+class About extends Component {
   render() {
     return (
       <main>
@@ -62,3 +62,5 @@ export class About extends Component {
     );
   }
 }
+
+export {About};

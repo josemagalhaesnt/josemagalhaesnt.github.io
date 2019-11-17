@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skill.scss";
 
-export const Skill = props => {
+const Skill = props => {
   const profMaxValue = 100;
 
   return (
@@ -16,3 +16,5 @@ export const Skill = props => {
     </div>
   );
 };
+
+export {Skill};
