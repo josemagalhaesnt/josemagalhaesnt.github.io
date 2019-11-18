@@ -15,7 +15,7 @@ class Header extends Component {
             <span>
               <a
                 href="https://github.com/josemagalhaesnt"
-                placeholder="GitHub"
+                title="GitHub"
                 className="social__link"
               >
                 <i className="fab fa-github"></i>
@@ -24,7 +24,7 @@ class Header extends Component {
             <span>
               <a
                 href="http://lattes.cnpq.br/4413604877482150"
-                placeholder="Currículo Lattes"
+                title="Currículo Lattes"
                 className="social__link"
               >
                 <i className="fas fa-address-card"></i>
@@ -33,7 +33,7 @@ class Header extends Component {
             <span>
               <a
                 href="https://www.linkedin.com/in/josemagalhaesnt"
-                placeholder="Linkedin"
+                title="Linkedin"
                 className="social__link"
               >
                 <i className="fab fa-linkedin-in"></i>
