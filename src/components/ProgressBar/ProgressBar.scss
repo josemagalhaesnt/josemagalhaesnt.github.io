@@ -1,0 +1,39 @@
+@import "../../assets/sass/mixins.scss";
+
+.ProgressBar {
+  border: none;
+  border-radius: 10rem;
+  display: block;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0;
+  width: 100%;
+  height: 1rem;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+progress[value]::-webkit-progress-value {
+  @include sunset-gradient;
+  border-radius: 10rem;
+}
+
+progress[value]::-moz-progress-bar {
+  @include sunset-gradient;
+  border-radius: 10rem;
+}
+
+progress::-ms-fill {
+  @include sunset-gradient;
+  border-radius: 10rem;
+  border: none;
+}
