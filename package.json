@@ -5,6 +5,7 @@
   "dependencies": {
     "prettier": "^1.19.1",
     "react": "^16.12.0",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
     "react-timeline-scribble": "^1.0.14",
@@ -38,10 +39,10 @@
     ]
   },
   "devDependencies": {
-    "bootstrap": "^4.3.1",
-    "gh-pages": "^2.1.1",
-    "node-sass": "^4.13.0",
-    "prettier-eslint": "^9.0.0",
+    "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
+    "prettier-eslint": "^9.0.1",
     "prettier-eslint-cli": "^5.0.0",
     "prettier-stylelint": "^0.4.2"
   }

@@ -16,8 +16,12 @@ const SkillList = () => {
       icon: 'fa-js',
     },
     {
-      name: 'React JS',
+      name: 'React.js',
       icon: 'fa-react',
+    },
+    {
+      name: 'NPM',
+      icon: 'fa-npm',
     },
     {
       name: 'Sass',

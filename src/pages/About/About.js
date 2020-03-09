@@ -1,12 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './About.scss';
+import styled, { keyframes } from 'styled-components';
+import { fadeIn } from 'react-animations';
 import { SkillList } from '../../components';
 import { Timeline, Event } from 'react-timeline-scribble';
 import developerPic from '../../assets/images/profile.jpg';
 
-class About extends Component {
-  render() {
-    return (
+const animation = keyframes`${fadeIn}`;
+
+const AnimateSection = styled.div`
+  animation: 2s ${animation};
+`;
+
+const About = () => {
+  return (
+    <AnimateSection>
       <main>
         <section className='About' id='about'>
           <div className='About-dev container'>
@@ -24,15 +32,14 @@ class About extends Component {
 
               <div className='col col-md-9'>
                 <p className='About-dev__description'>
-                  Estudante de Engenharia de Computação no Instituto
-                  Federal de Ciência, Educação e Tecnologia - IFCE,
-                  atuando desde 2017 com o Desenvolvimento Web de
-                  Front-End e desde então, me dedicando para ser um
-                  profissional cada vez mais capacitado, desenvolvendo
-                  projetos de qualidade, aprendendo novas tecnologias,
-                  padrões e boas práticas de Programação e Design para
-                  agregar cada vez mais valor às minhas skills, além
-                  de desenvolver novas skills.
+                  Estudante de Sistemas e Mídias Digitais na
+                  Universidade Federal do Ceará (UFC), comecei a atuar
+                  em 2017 como Desenvolvedor Front-End e, desde então,
+                  tenho me dedicado para ser um desenvolvedor cada vez
+                  mais capacitado, desenvolvendo projetos de
+                  qualidade, aprendendo novas tecnologias, padrões e
+                  boas práticas de Programação e Design para agregar
+                  cada vez mais valor às minhas skills e projetos.{' '}
                 </p>
 
                 <h3 className='title'>Skills</h3>
@@ -44,12 +51,14 @@ class About extends Component {
                 <div className='row'>
                   <Timeline>
                     <Event
-                      interval={'Agosto 2019'}
+                      interval={'Agosto 2019 - Atualmente'}
                       title={'Desenvolvedor Front-End'}
                       subtitle={'OSF Global Services'}>
-                        Trabalhando como desenvolvedor Front-End e me desenvolvendo nas
-                        principais linguagens de desenvolvimento do mercado, incluindo JavaScript e React.
-                      </Event>
+                      Trabalhando como desenvolvedor Front-End e me
+                      desenvolvendo nas principais linguagens de
+                      desenvolvimento do mercado, incluindo
+                      JavaScript, React.js e Jest.
+                    </Event>
                     <Event
                       interval={'Set/2017 – Jun/2019'}
                       title={'Bolsista de Desenvolvimento Web'}
@@ -70,8 +79,8 @@ class About extends Component {
           </div>
         </section>
       </main>
-    );
-  }
-}
+    </AnimateSection>
+  );
+};
 
 export { About };
