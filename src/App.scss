@@ -1,0 +1,33 @@
+@import "./assets/sass/mixins.scss", "./assets/sass/variables.scss";
+
+@import "../node_modules/bootstrap/scss/functions",
+  "../node_modules/bootstrap/scss/variables",
+  "../node_modules/bootstrap/scss/mixins",
+  "../node_modules/bootstrap/scss/reboot", "../node_modules/bootstrap/scss/grid";
+
+@import "base/animations", "base/base", "base/typography";
+
+:root {
+  //Main Colors
+  --color-red: #b53d3d;
+  --color-yellow: #bbbd30;
+  --color-lime: #22c727;
+  --color-mint: #15d182;
+  --color-cyan: #07c1db;
+  --color-blue: #1768db;
+  --color-violet: #a12aea;
+  --color-pink: #ff4284;
+
+  //Lighter Colors:
+  --color-mint-0: #ceffd7;
+  --color-cyan-0: #b6ffff;
+  --color-blue-0: #9ad9ff;
+  --color-violet-0: #a37dff;
+  --color-pink-0: #f9bada;
+
+  //Font Colors
+  --color-white: #fff;
+  --color-grey-light: #e7e7e7;
+  --color-grey-dark: #9e9e9e;
+  --color-black: #1a1a1a;
+}

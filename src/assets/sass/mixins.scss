@@ -1,0 +1,84 @@
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+@mixin blue-gradient() {
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin pink-gradient() {
+  background: #f4c4f3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #fc67fa,
+    #f4c4f3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #fc67fa,
+    #f4c4f3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin sunset-gradient() {
+  background: #cb356b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #bd3f32,
+    #cb356b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #bd3f32,
+    #cb356b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin align-center() {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin list-margin {
+  li:not(:last-child) {
+    margin-bottom: 0.43rem;
+  }
+}
+
+@mixin list-format {
+  list-style: none;
+}
+
+@mixin animate-btn {
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 3rem rgba(var(--color-black), 0.3);
+
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(var(--color-black), 0.2);
+  }
+}

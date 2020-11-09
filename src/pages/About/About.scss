@@ -1,0 +1,60 @@
+@import "../../assets/sass/mixins.scss";
+@import "~rfs/scss";
+
+.About {
+  //display: flex;
+  padding: 3rem 2rem;
+  margin: 3rem 0;
+  background-color: var(--color-white);
+
+  .container {
+    padding: 1rem;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: stretch;
+  }
+
+  &-dev {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+
+    &__description {
+      margin-top: 1.5rem;
+      font-family: "Roboto", sans-serif;
+      line-height: 2.7rem;
+      @include font-size(1.6rem);
+    }
+
+    &__picture {
+      border-radius: 50%;
+      max-width: 20rem;
+      height: auto;
+      margin: 0.8rem;
+    }
+  }
+
+  .skills {
+    align-self: center;
+
+    &__category {
+      font-weight: 300;
+      color: var(--color-black);
+      margin: 1rem 0;
+
+      &::before {
+        content: "</>";
+        padding-right: 0.8rem;
+        color: var(--color-pink);
+      }
+    }
+
+    &__list {
+      @include list-format;
+      @include list-margin;
+    }
+  }
+}

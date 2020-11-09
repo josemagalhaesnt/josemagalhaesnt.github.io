@@ -1,0 +1,24 @@
+.SkillList {
+  display: flex;
+}
+
+.Skill {
+  margin-right: 5px;
+
+  &__icon {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: whitesmoke;
+    border-radius: 10rem;
+
+    & > i {
+      font-size: 2rem;
+      color: #222;
+    }
+
+  }
+}
